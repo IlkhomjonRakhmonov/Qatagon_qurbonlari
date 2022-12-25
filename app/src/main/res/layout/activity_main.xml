@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/behbudiy"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="Mahmudxo'ja Behbudiy"
+                    android:textColor="@color/white"
+                    android:padding="16dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"/>
+                <FrameLayout
+                    android:id="@+id/behbudiy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/chulpon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Cho'lpon"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:shadowColor="@color/black"
+                android:shadowRadius="2"
+                android:shadowDx="2"
+                android:shadowDy="2"/>
+            <FrameLayout
+                android:id="@+id/chulpon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:background="?android:selectableItemBackground"/>
+
+        </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/qodiriy"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="Abdulla Qodiriy"
+                    android:textColor="@color/white"
+                    android:padding="16dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"/>
+                <FrameLayout
+                    android:id="@+id/qodiriy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fitrat"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="Abdurauf Fitrat"
+                    android:textColor="@color/white"
+                    android:padding="16dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"/>
+                <FrameLayout
+                    android:id="@+id/fitrat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/nosir"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="Usmon Nosir"
+                    android:textColor="@color/white"
+                    android:padding="16dp"
+                    android:shadowColor="@color/black"
+                    android:shadowRadius="2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"/>
+                <FrameLayout
+                    android:id="@+id/nosir"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:background="?android:selectableItemBackground"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
